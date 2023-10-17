@@ -2,6 +2,7 @@ import React from 'react'
 import './contacts.css'
 import { MdOutlineMailOutline } from 'react-icons/md'
 import { IoLogoTwitter } from 'react-icons/io'
+import { IoLogoInstagram } from 'react-icons/io'
 import { BsLinkedin } from 'react-icons/bs'
 import './contacts.css'
 import { useRef } from 'react';
@@ -40,7 +41,7 @@ const Contacts = () => {
           </article>
 
           <article className="contact__option">
-            <IoLogoInstagram className='contact__option-icon'/>
+            <IoLogoTwitter className='contact__option-icon'/>
             <h4>Twitter</h4>
             <h5>Dhruv</h5>
             <a href="https://twitter.com/dhruvjain_19" target='_blank' rel="noreferrer">Connect on Twitter</a>
